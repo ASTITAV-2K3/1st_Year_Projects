@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+
+<body onload='document.form1.text1.focus()'>
+
+    <div class="mail">
+
+        <form name="form1" action="#">
+
+            <ul>
+
+                <li><input type='text' name='text1' /></li>
+
+            
+
+                <li class="submit"><input type="submit" name="submit" value="Submit" onclick="mobilenumber(document.form1.text1)" /></li>
+
+       
+
+            </ul>
+
+        </form>
+
+    </div>
+
+<script>
+
+function mobilenumber(userstrtxt)
+
+{
+    var phoneno=/^\d{10}$/;
+    if(userstrtxt.value.match(phoneno))
+
+    {return true;}
+
+
+    else
+
+
+    {alert("Not a valid Phone Number");return false;}
+
+}
+
+</script>
+
+</body>
+
+</html>

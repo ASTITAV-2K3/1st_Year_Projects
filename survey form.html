@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SURVEY FORM</title>
+
+        <style type="text/css">
+            label{
+                width: 1000px;
+                display: inline-block;
+            }
+
+            .button {
+  width: 75px;
+  position:fixed; right:40px; left: 1010px; 
+  display: inline-block;
+  background-color: yellow;
+  border-color: black;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+       
+
+            .input{
+                margin-left: 1008px;
+            }
+
+        </style>
+    <header style="background-color: skyblue;">
+       <h1>Survey Form</h1> 
+    </header>
+      
+    </head>
+
+    <body style="background-color:pink ;">
+
+        <p>PLEASE FILL THE SURVEY FOR CODE CHEF WORKSHOP</p>
+<div id="form">
+    <form >
+        <label>*Name</label>
+        <input><br>
+        <br>
+        <label>*Email</label>
+        <input><br>
+        <br>
+        <label>*Age</label>
+        <input><br>
+        <br>
+        <label>*Which option best describe your current role?</label>
+        <select>
+            <option>select</option>
+            <option>Student</option><br>
+            <option>Teacher</option>
+        </select><br>
+        <br>
+        <label>*How likely will you recomend Code Chef Workshop to a friend</label>
+        <input type="radio" name = "ans"  value="definately"> definately </br>
+        <input class="input" type="radio" name = "ans"  value="may be"> may be
+        <br>
+        <br>
+    
+        <label>*What do you like most in code chef?</label>
+        <select>
+            <option>select</option>
+            <option>coding</option>
+            <option>not know</option>
+        </select><br>
+        <br>
+        <label>*Things That are likely to be improved in future
+               (Check all that apply)
+        </label>
+        <input type="checkbox" name = "ans" value="Front End/Back End Projects"> Front End/Back End Projects </br>
+        <input class="input" type="checkbox" name = "ans" value="Data Visualisation"> Data Visualisation
+        <br>
+    </form>
+</div>
+        <br>
+    
+    <button class="button">SUBMIT</button>
+    
+    </body>
+</html>
